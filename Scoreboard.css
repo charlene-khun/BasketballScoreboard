@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+@font-face {
+    src: url('CursedTimerUlil-Aznm.ttf') format('truetype');
+    font-family: "CursedFont";
+  }
+
+#scoreG{
+    background: black;
+    font-family: "CursedFont"; 
+    font-size: 90px;
+    color: red;
+    width: 120px;
+    margin: 20px;
+}
+
+#scoreH{
+    background: black;
+    font-family: "CursedFont";
+    font-size: 90px;
+    color: red;
+    width: 120px;
+    margin: 20px;
+}
+
+.button{
+    background: none;
+    width: 20px;
+}
